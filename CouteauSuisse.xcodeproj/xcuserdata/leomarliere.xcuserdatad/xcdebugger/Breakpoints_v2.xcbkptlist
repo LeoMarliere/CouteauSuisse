@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "51CF900F-4F50-42CE-8EF0-58CA9E9C439A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53845AEB-E371-400D-86EE-C68DBD74F487"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CouteauSuisse/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "buttonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53845AEB-E371-400D-86EE-C68DBD74F487 - 14bebcc4f4f48987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CouteauSuisse.MenuViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "CouteauSuisse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leomarliere/Desktop/IOS/CouteauSuisse/CouteauSuisse/Menu/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "53845AEB-E371-400D-86EE-C68DBD74F487 - 14bebcc4f4f48987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CouteauSuisse.MenuViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "CouteauSuisse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leomarliere/Desktop/IOS/CouteauSuisse/CouteauSuisse/Menu/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "53845AEB-E371-400D-86EE-C68DBD74F487 - 14bebcc4f4f48987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CouteauSuisse.MenuViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "CouteauSuisse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leomarliere/Desktop/IOS/CouteauSuisse/CouteauSuisse/Menu/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48A2B6D6-37FD-4122-928A-845B36E7A1D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CouteauSuisse/Domain/Scenes/Menu/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "buttonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
