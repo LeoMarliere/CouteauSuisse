@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2321D7C12B83762900064F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7C02B83762900064F45 /* AppDelegate.swift */; };
+		2321D7C32B83762900064F45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7C22B83762900064F45 /* SceneDelegate.swift */; };
+		2321D7C52B83762900064F45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7C42B83762900064F45 /* ViewController.swift */; };
+		2321D7C82B83762900064F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321D7C62B83762900064F45 /* Main.storyboard */; };
+		2321D7CB2B83762900064F45 /* CouteauSuisse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7C92B83762900064F45 /* CouteauSuisse.xcdatamodeld */; };
+		2321D7CD2B83762A00064F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2321D7CC2B83762A00064F45 /* Assets.xcassets */; };
+		2321D7D02B83762A00064F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321D7CE2B83762A00064F45 /* LaunchScreen.storyboard */; };
+		2321D7DB2B83762A00064F45 /* CouteauSuisseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7DA2B83762A00064F45 /* CouteauSuisseTests.swift */; };
+		2321D7E52B83762A00064F45 /* CouteauSuisseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7E42B83762A00064F45 /* CouteauSuisseUITests.swift */; };
+		2321D7E72B83762A00064F45 /* CouteauSuisseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321D7E62B83762A00064F45 /* CouteauSuisseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2321D7D72B83762A00064F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2321D7B52B83762900064F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2321D7BC2B83762900064F45;
+			remoteInfo = CouteauSuisse;
+		};
+		2321D7E12B83762A00064F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2321D7B52B83762900064F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2321D7BC2B83762900064F45;
+			remoteInfo = CouteauSuisse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2321D7BD2B83762900064F45 /* CouteauSuisse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouteauSuisse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321D7C02B83762900064F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2321D7C22B83762900064F45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2321D7C42B83762900064F45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2321D7C72B83762900064F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2321D7CA2B83762900064F45 /* CouteauSuisse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CouteauSuisse.xcdatamodel; sourceTree = "<group>"; };
+		2321D7CC2B83762A00064F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2321D7CF2B83762A00064F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2321D7D12B83762A00064F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2321D7D62B83762A00064F45 /* CouteauSuisseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouteauSuisseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321D7DA2B83762A00064F45 /* CouteauSuisseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouteauSuisseTests.swift; sourceTree = "<group>"; };
+		2321D7E02B83762A00064F45 /* CouteauSuisseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouteauSuisseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321D7E42B83762A00064F45 /* CouteauSuisseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouteauSuisseUITests.swift; sourceTree = "<group>"; };
+		2321D7E62B83762A00064F45 /* CouteauSuisseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouteauSuisseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2321D7BA2B83762900064F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321D7D32B83762A00064F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321D7DD2B83762A00064F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2321D7B42B83762900064F45 = {
+			isa = PBXGroup;
+			children = (
+				2321D7BF2B83762900064F45 /* CouteauSuisse */,
+				2321D7D92B83762A00064F45 /* CouteauSuisseTests */,
+				2321D7E32B83762A00064F45 /* CouteauSuisseUITests */,
+				2321D7BE2B83762900064F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2321D7BE2B83762900064F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2321D7BD2B83762900064F45 /* CouteauSuisse.app */,
+				2321D7D62B83762A00064F45 /* CouteauSuisseTests.xctest */,
+				2321D7E02B83762A00064F45 /* CouteauSuisseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2321D7BF2B83762900064F45 /* CouteauSuisse */ = {
+			isa = PBXGroup;
+			children = (
+				2321D7C02B83762900064F45 /* AppDelegate.swift */,
+				2321D7C22B83762900064F45 /* SceneDelegate.swift */,
+				2321D7C42B83762900064F45 /* ViewController.swift */,
+				2321D7C62B83762900064F45 /* Main.storyboard */,
+				2321D7CC2B83762A00064F45 /* Assets.xcassets */,
+				2321D7CE2B83762A00064F45 /* LaunchScreen.storyboard */,
+				2321D7D12B83762A00064F45 /* Info.plist */,
+				2321D7C92B83762900064F45 /* CouteauSuisse.xcdatamodeld */,
+			);
+			path = CouteauSuisse;
+			sourceTree = "<group>";
+		};
+		2321D7D92B83762A00064F45 /* CouteauSuisseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2321D7DA2B83762A00064F45 /* CouteauSuisseTests.swift */,
+			);
+			path = CouteauSuisseTests;
+			sourceTree = "<group>";
+		};
+		2321D7E32B83762A00064F45 /* CouteauSuisseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2321D7E42B83762A00064F45 /* CouteauSuisseUITests.swift */,
+				2321D7E62B83762A00064F45 /* CouteauSuisseUITestsLaunchTests.swift */,
+			);
+			path = CouteauSuisseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2321D7BC2B83762900064F45 /* CouteauSuisse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321D7EA2B83762A00064F45 /* Build configuration list for PBXNativeTarget "CouteauSuisse" */;
+			buildPhases = (
+				2321D7B92B83762900064F45 /* Sources */,
+				2321D7BA2B83762900064F45 /* Frameworks */,
+				2321D7BB2B83762900064F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouteauSuisse;
+			productName = CouteauSuisse;
+			productReference = 2321D7BD2B83762900064F45 /* CouteauSuisse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2321D7D52B83762A00064F45 /* CouteauSuisseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321D7ED2B83762A00064F45 /* Build configuration list for PBXNativeTarget "CouteauSuisseTests" */;
+			buildPhases = (
+				2321D7D22B83762A00064F45 /* Sources */,
+				2321D7D32B83762A00064F45 /* Frameworks */,
+				2321D7D42B83762A00064F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2321D7D82B83762A00064F45 /* PBXTargetDependency */,
+			);
+			name = CouteauSuisseTests;
+			productName = CouteauSuisseTests;
+			productReference = 2321D7D62B83762A00064F45 /* CouteauSuisseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2321D7DF2B83762A00064F45 /* CouteauSuisseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321D7F02B83762A00064F45 /* Build configuration list for PBXNativeTarget "CouteauSuisseUITests" */;
+			buildPhases = (
+				2321D7DC2B83762A00064F45 /* Sources */,
+				2321D7DD2B83762A00064F45 /* Frameworks */,
+				2321D7DE2B83762A00064F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2321D7E22B83762A00064F45 /* PBXTargetDependency */,
+			);
+			name = CouteauSuisseUITests;
+			productName = CouteauSuisseUITests;
+			productReference = 2321D7E02B83762A00064F45 /* CouteauSuisseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2321D7B52B83762900064F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2321D7BC2B83762900064F45 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2321D7D52B83762A00064F45 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2321D7BC2B83762900064F45;
+					};
+					2321D7DF2B83762A00064F45 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2321D7BC2B83762900064F45;
+					};
+				};
+			};
+			buildConfigurationList = 2321D7B82B83762900064F45 /* Build configuration list for PBXProject "CouteauSuisse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2321D7B42B83762900064F45;
+			productRefGroup = 2321D7BE2B83762900064F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2321D7BC2B83762900064F45 /* CouteauSuisse */,
+				2321D7D52B83762A00064F45 /* CouteauSuisseTests */,
+				2321D7DF2B83762A00064F45 /* CouteauSuisseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2321D7BB2B83762900064F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321D7D02B83762A00064F45 /* LaunchScreen.storyboard in Resources */,
+				2321D7CD2B83762A00064F45 /* Assets.xcassets in Resources */,
+				2321D7C82B83762900064F45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321D7D42B83762A00064F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321D7DE2B83762A00064F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2321D7B92B83762900064F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321D7CB2B83762900064F45 /* CouteauSuisse.xcdatamodeld in Sources */,
+				2321D7C52B83762900064F45 /* ViewController.swift in Sources */,
+				2321D7C12B83762900064F45 /* AppDelegate.swift in Sources */,
+				2321D7C32B83762900064F45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321D7D22B83762A00064F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321D7DB2B83762A00064F45 /* CouteauSuisseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321D7DC2B83762A00064F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321D7E52B83762A00064F45 /* CouteauSuisseUITests.swift in Sources */,
+				2321D7E72B83762A00064F45 /* CouteauSuisseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2321D7D82B83762A00064F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2321D7BC2B83762900064F45 /* CouteauSuisse */;
+			targetProxy = 2321D7D72B83762A00064F45 /* PBXContainerItemProxy */;
+		};
+		2321D7E22B83762A00064F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2321D7BC2B83762900064F45 /* CouteauSuisse */;
+			targetProxy = 2321D7E12B83762A00064F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2321D7C62B83762900064F45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321D7C72B83762900064F45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2321D7CE2B83762A00064F45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321D7CF2B83762A00064F45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2321D7E82B83762A00064F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2321D7E92B83762A00064F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2321D7EB2B83762A00064F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKQNMS5DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CouteauSuisse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.marliere.CouteauSuisse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2321D7EC2B83762A00064F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKQNMS5DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CouteauSuisse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.marliere.CouteauSuisse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2321D7EE2B83762A00064F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKQNMS5DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.marliere.CouteauSuisseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouteauSuisse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CouteauSuisse";
+			};
+			name = Debug;
+		};
+		2321D7EF2B83762A00064F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKQNMS5DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.marliere.CouteauSuisseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouteauSuisse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CouteauSuisse";
+			};
+			name = Release;
+		};
+		2321D7F12B83762A00064F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKQNMS5DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.marliere.CouteauSuisseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CouteauSuisse;
+			};
+			name = Debug;
+		};
+		2321D7F22B83762A00064F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKQNMS5DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.marliere.CouteauSuisseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CouteauSuisse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2321D7B82B83762900064F45 /* Build configuration list for PBXProject "CouteauSuisse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321D7E82B83762A00064F45 /* Debug */,
+				2321D7E92B83762A00064F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321D7EA2B83762A00064F45 /* Build configuration list for PBXNativeTarget "CouteauSuisse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321D7EB2B83762A00064F45 /* Debug */,
+				2321D7EC2B83762A00064F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321D7ED2B83762A00064F45 /* Build configuration list for PBXNativeTarget "CouteauSuisseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321D7EE2B83762A00064F45 /* Debug */,
+				2321D7EF2B83762A00064F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321D7F02B83762A00064F45 /* Build configuration list for PBXNativeTarget "CouteauSuisseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321D7F12B83762A00064F45 /* Debug */,
+				2321D7F22B83762A00064F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2321D7C92B83762900064F45 /* CouteauSuisse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2321D7CA2B83762900064F45 /* CouteauSuisse.xcdatamodel */,
+			);
+			currentVersion = 2321D7CA2B83762900064F45 /* CouteauSuisse.xcdatamodel */;
+			path = CouteauSuisse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2321D7B52B83762900064F45 /* Project object */;
+}
